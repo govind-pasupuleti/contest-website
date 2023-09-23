@@ -1,0 +1,113 @@
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    background-color: pink;
+    padding-right: 20px;
+    width: 1386px;
+   
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 250px;
+    height: 66px;
+   font-weight: bold;
+  
+}
+.logo-text{
+    display: inline;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif   ;
+    color: #373737;
+    font-size: 41px;
+    line-height: 45.7px;
+}
+.span-text{
+    color: #2B7AC1;
+}
+.blog-text{
+    font-family: 'Roboto', sans-serif;
+    font-size:28px;
+    font-weight: 300;
+}
+.blog{
+    display: inline;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70px;
+    padding: 2px;
+    box-sizing: content-box;
+    
+}
+.logo-blog{
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
+.nav-links{
+    margin-left: auto;
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 500px;
+}
+.button{
+    color: white;
+    height: 49px;
+    width: 223px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    background-color: #184655;
+    border-radius: 24px;
+    margin: 0px;
+    border:0px;
+}
+.as{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.d{
+    display: flex;
+    background-color: yellow;
+    justify-content: space-around;
+    width: 200px;
+    align-items: center;
+}
+.main-section{
+    width: 1386px;
+    height: 742px;
+    top: 155px;
+    left: 27px;
+    border-radius: 50px;
+   background-color:lightblue;
+    margin-top: 20px;
+    background-image:url(./Group.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 60px;
+}
+.main-text{
+    display: inline;
+    color: #184655;
+    font-family: 'Roboto', sans-serif;
+}
