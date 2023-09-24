@@ -3,9 +3,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-left: 20px;
-    background-color: pink;
-    padding-right: 20px;
     width: 1386px;
    
 }
@@ -33,7 +30,7 @@
 .blog-text{
     font-family: 'Roboto', sans-serif;
     font-size:28px;
-    font-weight: 300;
+    font-weight: light;
 }
 .blog{
     display: inline;
@@ -49,7 +46,7 @@
 .logo-blog{
     display: flex;
     align-items: center;
-    background-color: red;
+   
 }
 .nav-links{
     margin-left: auto;
@@ -60,7 +57,7 @@
 
     width: 500px;
 }
-.button{
+.butn{
     color: white;
     height: 49px;
     width: 223px;
@@ -69,14 +66,14 @@
     font-family: 'Roboto', sans-serif;
     background-color: #184655;
     border-radius: 24px;
-    margin: 0px;
+    
     border:0px;
 }
 .as{
     display: inline;
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 26px;
     letter-spacing: 0em;
     text-align: left;
@@ -84,7 +81,6 @@
 }
 .d{
     display: flex;
-    background-color: yellow;
     justify-content: space-around;
     width: 200px;
     align-items: center;
@@ -92,22 +88,232 @@
 .main-section{
     width: 1386px;
     height: 742px;
-    top: 155px;
-    left: 27px;
+
     border-radius: 50px;
-   background-color:lightblue;
+  
     margin-top: 20px;
-    background-image:url(./Group.png);
+    background-image:url(./Rectangle\ 31.jpg);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    padding-left: 60px;
+    flex-direction: row;
+    justify-content: space-around;
+   align-items: center;
 }
 .main-text{
     display: inline;
     color: #184655;
     font-family: 'Roboto', sans-serif;
+    
+}
+.search-container{
+    height: 78px;
+    width: 546px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 11px;
+    padding-left: 25px;
+    margin-top: 20px;
+   
+}
+.search-text{
+    height: 27px;
+    width: 237px;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    padding-left: 25px;
+    font-size: 25px;
+
+}
+.search-button{
+    height: inherit;
+    width: 300px;
+    background-color: #184655;
+    color: white;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.last-text{
+    height: 25px;
+    width: 300px;
+    margin-top: 20px;
+    color: #53748C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+.lat{
+    height: 512px;
+    width: 1386px;
+    background-image:url(./Rectangle\ 31.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    border-radius: 50px;
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 15px;
+   
+}
+.first-line{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    color: #404040;
+    font-weight: 500;
+    font-size: 42px;
+    width: 613px;
+}
+.line-box{
+    padding-left: 20px;
+}
+.second-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 612px;
+    height: 30px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    margin-top: 20px;
+}
+.third-line{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32.81px;
+    color: #464343;
+    padding-right: 10px;
+    
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 1386px;
+  
+}
+.mono-cards{
+    display: flex;
+    flex-direction: column;
+    width: 432px;
+    height: 469px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px grey;
+    
+}
+.other-heading{
+    width: 394.06px;
+    height: 31.65px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4A4848;
+    margin-top: 20px;
+   
+}
+.card-text-2{
+    width: 396px;
+    height: 19px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color:#6F6E6ED6;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.card-paragraph{
+    width: 394.06px;
+    height: 71.71px;
+    font-family: Segoe UI;
+    color: #464343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.28px;
+}
+.sf{
+   
+    font-family: 'Roboto', sans-serif;
+    color:  #213949;
+    height: 30px;
+    width: 394.06px;
+    margin-top: 8px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+.card-t{
+    padding: 20px;
+    
+}
+.l-sec{
+    height: 100px;
+    background-color: red;
+    margin-top: 40px;
+    width: 1336px;
+    height: 707px;
+    background-image:url(./Rectangle\ 31.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+    background-size: cover;
+    border-radius: 20px;
+}
+.three-last-text{
+    width: 525px;
+    height: 165px;
+  
+    font-family: 'Roboto', sans-serif;
+    
+}
+.bn{
+    background-image: linear-gradient(to right,blue,green);
+    font-family: 'Roboto', sans-serif;
+    
+    border-radius: 30px;
+    text-align: center;
+    width: 180px;
+    padding-top: 10px;
+    color: white;
+    height: 30px;
+}
+.text-one{
+        font-weight: bolder;
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+}
+.text-two{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+}
+.si{
+    font-family: 'Roboto', sans-serif;
+    font-weight: light;
+    font-size: 30px;
 }
